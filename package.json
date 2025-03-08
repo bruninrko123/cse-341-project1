@@ -1,0 +1,29 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "List of contacts",
+  "homepage": "https://github.com/bruninrko123/cse-341-project1#readme",
+  "bugs": {
+    "url": "https://github.com/bruninrko123/cse-341-project1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bruninrko123/cse-341-project1.git"
+  },
+  "license": "ISC",
+  "author": "Bruno Alves",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongodb": "^6.14.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
