@@ -9,7 +9,7 @@ app.use("/", require("./routes"));
 
 
 
-const port = process.env.PORT | 3060;
+const port = process.env.PORT || 3060;
 
 
 
