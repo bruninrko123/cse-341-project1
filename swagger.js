@@ -6,7 +6,7 @@ const doc = {
         title: "Contacts API",
         description: "API to manage a list of contacts. CRUD operations"
     },
-    host: process.env.RENDER_EXTERNAL_URL ? process.env.RENDER_EXTERNAL_URL : "localhost:3060",
+    host: process.env.RENDER_EXTERNAL_URL,
     schemes: ["http"],
 
 

@@ -5,7 +5,6 @@
     "description": "API to manage a list of contacts. CRUD operations",
     "version": "1.0.0"
   },
-  "host": "localhost:3060",
   "basePath": "/",
   "schemes": [
     "http"
