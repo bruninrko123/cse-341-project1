@@ -37,7 +37,7 @@ async function initializeDBbyID(id) {
   const { MongoClient } = require("mongodb");
 
   const uri =
-    "mongodb+srv://bruninrko123:Rb147258%40%40@cluster0.mnzq5.mongodb.net/";
+    process.env.URI;
 
   const client = new MongoClient(uri);
 
